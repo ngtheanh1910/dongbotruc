@@ -1,0 +1,226 @@
+<edXML:GetOrganizationsResponse xmlns:edXML="http://www.e-doc.vn/Schema/">
+  <edXML:Organizations>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.17.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Nội vụ tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.17</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.22.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Tài nguyên và Môi trường tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.22</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.23.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Giao thông vận tải tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.23</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.24.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Giáo dục và Đào tạo tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.24</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.28.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Kế hoạch và Đầu tư tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.28</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.29.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Khoa học Công nghệ tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.29</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.30.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Lao động -Thương binh và Xã hội tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.30</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.34.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Ngoại Vụ tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.35.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Vườn quốc gia Cát Tiên tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.88.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>UBND huyện Đạ Tẻh tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>true</edXML:is_integrator_center>
+      <edXML:domain_new>H36.88</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.50.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Công ty Cấp thoát nước tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.50</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.87.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>UBND huyện Đạ Huoai tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.87</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.39.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Sở Nông nghiệp và Phát triển nông thôn tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.39</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.43.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Ban quản lý các khu Công nghiệp tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.43</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.42.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Thanh tra tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.42</edXML:domain_new>
+    </edXML:Organization>
+    <edXML:Organization>
+      <edXML:OrganId>000.00.48.H36</edXML:OrganId>
+      <edXML:OrganizationInCharge>Lâm Đồng</edXML:OrganizationInCharge>
+      <edXML:OrganName>Vườn Quốc gia BiDoup-Núi Bà tỉnh Lâm Đồng</edXML:OrganName>
+      <edXML:OrganAdd>Tỉnh Lâm Đồng</edXML:OrganAdd>
+      <edXML:Email />
+      <edXML:Telephone />
+      <edXML:Fax />
+      <edXML:Website />
+      <edXML:agency>true</edXML:agency>
+      <edXML:send_vpcp>true</edXML:send_vpcp>
+      <edXML:is_integrator_center>false</edXML:is_integrator_center>
+      <edXML:domain_new>H36.48</edXML:domain_new>
+    </edXML:Organization>
+  </edXML:Organizations>
+</edXML:GetOrganizationsResponse>
