@@ -34,7 +34,7 @@
             <tbody>
             </tbody>
         </table>
-        <button type="button" class="btn btn-primary" id="btnSyncData" onclick="syncDatabase()">Sync data</button>
+        <button type="button" class="btn btn-primary" id="btnSyncData">Sync data</button>
     </div>
 
     <script type="text/javascript">
@@ -53,17 +53,24 @@
                         data: data,
                         columns: [
                             {
-                                data: null,
-                                'render': function () {
-                                    return '<input type="checkbox" onclick=getChecked()>';
-                                }
+                                data: 'isChecked',
+                                render: function (data, type, row) {
+                                    if (type === 'display') {
+                                        return '<input type="checkbox" checked=${this.isChecked} class="editor-active">';
+                                    }
+                                    return data;
+                                },
                             },
                             { data: 'OrganId' },
                             { data: 'OrganName' },
                             { data: 'Email' },
                             { data: 'Telephone' },
                             { data: 'Fax' }
-                        ]
+                        ],
+                        rowCallback: function (row, data) {
+                            // Set the checked state of the checkbox in the table
+                            $('input.editor-active', row).prop('checked', data.isChecked == true);
+                        }
                     });
                 },
                 error: function (xhr) {
@@ -76,38 +83,7 @@
 
         function getChecked(e) {
             return event.target.checked;
-        }
-
-        function getArrayChecked() {
-            var array =[];
-            $('#users tbody').on('click', 'tr', function () {
-                if (getChecked() == true) {
-                    array.push(table.row(this).data());
-                }
-                else {
-                    array = array.filter(x => x != table.row(this).data())
-                }
-                console.log(array);
-            });
-        }
-
-        function syncDatabase(array) {
-            var listChecked = array;
-            $.ajax({
-                async: false,
-                url: '/Home/SyncDatabase',
-                type: "POST",
-                dataType: "json",
-                contentType: 'application/json; charset=utf-8',
-                data: array,
-                success: function (result) {
-                    alert('ok');
-                },
-                error: function (xhr) {
-                    alert('error');
-                }
-            });
-        }
+        }        
 
         $(document).ready(function () {
             initTableData();
@@ -128,14 +104,27 @@
                 else {
                     array = array.filter(x => x != table.row(this).data())
                 }
-                console.log(array);
             });
 
-            syncDatabase(array);
+            $('#btnSyncData').on('click', function () {
+                var data = array;
+                $.ajax({
+                    async: false,
+                    url: '/Home/SyncDatabase',
+                    type: "POST",
+                    dataType: "json",
+                    contentType: 'application/json; charset=utf-8',
+                    data: JSON.stringify(data),
+                    success: function (result) {
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+
+            
         });
-
-
-
 
 
     </script>

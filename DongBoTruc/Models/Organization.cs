@@ -25,6 +25,7 @@ namespace DongBoTruc.Models
         public bool is_integrator_center { get; set; }
         public string domain_new { get; set; }
 
+        public bool isChecked { get; set; }
         public Organization()
         {
             //xmlns.Add("edXML", "http://www.e-doc.vn/Schema/");
@@ -39,6 +40,7 @@ namespace DongBoTruc.Models
             //send_vpcp = true;
             //is_integrator_center = true;
             //domain_new = "";
+            isChecked = false;
         }
     }
 }

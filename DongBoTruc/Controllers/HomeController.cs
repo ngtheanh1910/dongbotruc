@@ -16,15 +16,54 @@ namespace DongBoTruc.Controllers
         public ActionResult Index()
         {
             return View();
+        }        
+
+        public List<Address> GetDatabase()
+        {
+            List<Address> addresses = new List<Address>
+            { 
+                new Address
+                {
+                    EdocId = "000.00.17.H36",
+                    Name = "Test 1",
+                },
+                new Address
+                {
+                    EdocId = "000.00.23.H36",
+                    Name = "Test 2",
+                },
+                new Address
+                {
+                    EdocId = "000.00.24.H36",
+                    Name = "Test 3",
+                },
+                new Address
+                {
+                    EdocId = "000.00.28.G18",
+                    Name = "Test 4",
+                }
+            };
+
+            return addresses;
         }
 
         public JsonResult GetAll()
         {
             string filePath = @"D:\BKAV\ProjectBkav\DongBoTruc\data.xml";
             var result = DeserializeToObject<GetOrganizationsResponse>(filePath);
-            var data = result.Organizations.organizations;
+            var lstOrganization = result.Organizations.organizations;
 
-            return Json(data, JsonRequestBehavior.AllowGet);
+            var lstAddress = GetDatabase();
+
+            foreach (var organ in lstOrganization)
+            {
+                var address = lstAddress.FirstOrDefault(a => a.EdocId == organ.OrganId);
+                if(address != null)
+                {
+                    organ.isChecked = true;
+                }
+            }
+            return Json(lstOrganization, JsonRequestBehavior.AllowGet);
         }
 
         [System.Web.Http.HttpPost]
